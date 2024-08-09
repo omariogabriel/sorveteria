@@ -72,3 +72,26 @@
     height: 250px;
     object-fit: contain;
 }
+
+@media (max-width: 768px) {
+    .banner_section_title h1 {
+      font-size: 60px;
+    }
+  
+    .sabores_container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .sabores_container div{
+      padding: 20px 40px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+@media (max-width: 425px){
+    .banner_section_title h1 {
+      font-size: 45px;
+    }
+}

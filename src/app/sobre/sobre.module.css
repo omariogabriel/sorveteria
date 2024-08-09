@@ -79,3 +79,30 @@
     height: auto;
     object-fit: cover;
   }
+
+
+  @media (max-width: 768px) {
+    .banner_section div h1 {
+      font-size: 60px;
+    }
+  
+    .image_section div {
+      flex-direction: column;
+    }
+  
+    .image {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px){
+    .banner_section div h1 {
+      font-size: 60px;
+    }
+  }
+  
+  @media (max-width: 525px){
+    .banner_section div h1 {
+      font-size: 40px;
+    }
+  }

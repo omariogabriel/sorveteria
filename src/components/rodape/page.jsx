@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.container_direito_autoral}>
-        <p>Gelateria. Orgulhosamente desenvolvido por "nome do desenvolvedor"</p>
+        <p>Gelateria. Orgulhosamente desenvolvido por Mário Gabriel</p>
       </div>
     </footer>
     )

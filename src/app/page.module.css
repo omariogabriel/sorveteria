@@ -68,3 +68,43 @@
     display: flex;
 }
 
+@media (max-width: 768px){
+    .banner_section_title h1 {
+    font-size: 60px;
+    }
+
+    .sabores_section {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .image_card {
+    width: 100%;
+    }
+
+    .container_text {
+    width: 100%;
+    padding: 100px 20px;
+    }
+
+    .events_section {
+    flex-direction: column-reverse;
+    align-items: center;
+    }
+
+    .about_section {
+    flex-direction: column;
+    align-items: center;
+    }
+    }
+    
+@media (max-width: 425px){
+    .banner_section_title h1 {
+        font-size: 40px;
+    }
+
+    .banner_section {
+        background-size: 400px;
+    }
+}
+
